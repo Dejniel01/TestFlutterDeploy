@@ -66,6 +66,5 @@ jobs:
        uses: azure/webapps-deploy@v2
        with:
          app-name: 'CCQuarters'
-         slot-name: 'Production'
-         publish-profile: ${{ secrets.CCQUARTERS_PUBLISH_PROFILE}}
+         publish-profile: ${{ secrets.CCQUARTERS_PUBLISH_PROFILE }}
          package: .
