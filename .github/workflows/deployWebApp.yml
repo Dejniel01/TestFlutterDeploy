@@ -34,7 +34,7 @@ jobs:
        run: npm install -g express-generator
 
      - name: run express
-       run: express
+       run: express -f
 
      - name: npm install, build, and test
        run: |
