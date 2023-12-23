@@ -36,6 +36,12 @@ jobs:
      - name: run express
        run: express -f
 
+     - name: delete app.js
+       run: rm -f app.js
+
+     - name: rename app.js
+       run: mv express_app.js app.js
+
      - name: npm install, build, and test
        run: |
          ls
