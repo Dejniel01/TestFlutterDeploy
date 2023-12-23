@@ -12,7 +12,7 @@ jobs:
 
    defaults:
      run:
-        working-directory: ./test_flutter_app_deploy
+        working-directory: ./test_flutter_deploy_app
 
    steps:
      - uses: actions/checkout@v2
